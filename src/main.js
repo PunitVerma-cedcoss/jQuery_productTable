@@ -136,7 +136,7 @@ function renderTable(id) {
             <tr>
                 <td>${data[index].productSku}</td>
                 <td>${data[index].productName}</td>
-                <td>${data[index].productPrice}</td>
+                <td>USD ${data[index].productPrice}</td>
                 <td>${data[index].productQuantity}</td>
                 <td><a href="#" id="edit" pid="${data[index].productSku}">Edit</a> <a href="#" id="delete" pid="${data[index].productSku}">Delete</a></td>
             </tr>
