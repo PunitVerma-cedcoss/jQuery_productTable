@@ -13,6 +13,10 @@ body{
 	margin-top: 10px;
 }
 
+#add_product_form input{
+    border: 1px solid black;
+}
+
 #add_product_form label span{
 	width: 150px;
 	display: inline-block;
@@ -63,4 +67,8 @@ body{
 
 #product_list table th{
 	text-align: left;
+}
+
+.hide{
+    display: none;
 }
