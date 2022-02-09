@@ -231,6 +231,7 @@ $("body").on("click", "#edit", function (e) {
     }
 })
 $("body").on("click", "#delete", function (e) {
+    clearAllNotifications()
     askToDelte($(this).attr("pid"))
 })
 
